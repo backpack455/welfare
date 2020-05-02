@@ -4,7 +4,7 @@ if(isset($_POST['submit'])){
   $name = $_POST['name'];
   $mailFrom = $_POST['mail'];
   $pnumber = $_POST['pnumber'];
-  $write = $_POST['write'];
+  $message = $_POST['message'];
 
   $mailTo = "epicshootom@yahoo.com";
   $headers = "From: ".$mailFrom;
